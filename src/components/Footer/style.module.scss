@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  place-content: center;
+  @media (width < 980px) {
+    padding: 12px;
+  }
+  @media (980px <= width) {
+    padding: 24px;
+  }
+}
+
+.inner {
+  align-items: center;
+  display: flex;
+  width: min(100%, 1280px);
+}

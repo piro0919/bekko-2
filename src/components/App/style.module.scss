@@ -1,0 +1,89 @@
+.carouselWrapper {
+  display: flex;
+  place-content: center;
+  position: relative;
+  @media (width < 980px) {
+    margin-bottom: 48px;
+  }
+  @media (980px <= width) {
+    margin-bottom: 72px;
+  }
+}
+
+.carouselBlock {
+  position: absolute;
+  width: min(100%, 1280px);
+}
+
+.carouselSlide {
+  @media (width < 980px) {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  @media (980px <= width) {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.youTube {
+  overflow: hidden;
+  position: relative;
+  @media (width < 720px) {
+    aspect-ratio: 3 / 4;
+  }
+  @media (720px <= width) {
+    aspect-ratio: 16 / 9;
+  }
+  @media (width < 980px) {
+    border-radius: 12px;
+  }
+  @media (980px <= width) {
+    border-radius: 24px;
+  }
+}
+
+.youTube::after {
+  content: "";
+  cursor: pointer;
+  display: block;
+  inset: 0;
+  position: absolute;
+}
+
+.iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.listWrapper {
+  background: #35323f;
+  display: flex;
+  place-content: center;
+  @media (width < 980px) {
+    padding: 0 12px;
+  }
+  @media (980px <= width) {
+    padding: 0 24px;
+  }
+}
+
+.listBlock {
+  width: min(100%, 1280px);
+}
+
+.list {
+  text-align: center;
+}
+
+.modalVideo {
+  backdrop-filter: blur(2px);
+}
+
+.modalVideoBody {
+  max-width: 1420px;
+}
+
+.modalVideoIframeWrap {
+  transform: none !important;
+}

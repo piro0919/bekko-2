@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  place-content: center;
+  @media (width < 980px) {
+    padding: 24px 12px;
+  }
+  @media (980px <= width) {
+    padding: 48px 24px;
+  }
+}
+
+.inner {
+  align-items: center;
+  display: flex;
+  width: min(100%, 1280px);
+}
+
+.h1 {
+  font-size: 3.6rem;
+}
+
+.list {
+  font-size: 1.8rem;
+  gap: 4.8rem;
+
+  @media (width < 980px) {
+    display: none;
+  }
+  @media (980px <= width) {
+    display: flex;
+  }
+}
+
+.button {
+  @media (width < 980px) {
+    display: block;
+  }
+  @media (980px <= width) {
+    display: none;
+  }
+}
