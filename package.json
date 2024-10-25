@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@next/third-parties": "14.2.15",
-    "next": "14.2.15",
+    "@next/third-parties": "14.2.16",
+    "next": "14.2.16",
     "nextjs-toploader": "3.7.15",
     "nprogress": "0.2.0",
     "react": "^18",
