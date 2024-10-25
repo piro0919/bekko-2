@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@next/third-parties": "14.2.16",
-    "next": "14.2.16",
+    "@next/third-parties": "15.0.1",
+    "next": "15.0.1",
     "nextjs-toploader": "3.7.15",
     "nprogress": "0.2.0",
     "react": "^18",
@@ -31,7 +31,7 @@
     "commitlint-plugin-tense": "1.0.3",
     "eslint": "^8",
     "eslint-config-google": "0.14.0",
-    "eslint-config-next": "14.2.16",
+    "eslint-config-next": "15.0.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-css-modules": "2.12.0",
     "eslint-plugin-ext": "0.1.0",
